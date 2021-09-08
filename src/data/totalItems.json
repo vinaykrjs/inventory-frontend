@@ -1,0 +1,82 @@
+[
+    {
+        "substanceId" : "Suk2021001001",
+        "substanceName" : "Item 1",
+        "hazardousProperties" : "explosive",
+        "quantityLeft" : "17kg", 
+        "usedFor" : "something", 
+        "whereStored" : "Store 122"
+    },
+    {
+        "substanceId" : "Suk2021001002",
+        "substanceName" : "Item 2",
+        "hazardousProperties" : "Oxidizing",
+        "quantityLeft" : "67kg", 
+        "usedFor" : "something", 
+        "whereStored" : "Store 122"
+    },
+    {
+        "substanceId" : "Suk2021001003",
+        "substanceName" : "Item 3",
+        "hazardousProperties" : "explosive",
+        "quantityLeft" : "34kg", 
+        "usedFor" : "something", 
+        "whereStored" : "Store 122"
+    },
+    {
+        "substanceId" : "Suk2021001004",
+        "substanceName" : "Item 4",
+        "hazardousProperties" : "toxic",
+        "quantityLeft" : "42kg", 
+        "usedFor" : "something", 
+        "whereStored" : "Store 122"
+    },
+    {
+        "substanceId" : "Suk2021001005",
+        "substanceName" : "Item 5",
+        "hazardousProperties" : "Oxidizing",
+        "quantityLeft" : "63kg", 
+        "usedFor" : "something", 
+        "whereStored" : "Store 122"
+    },
+    {
+        "substanceId" : "Suk2021001006",
+        "substanceName" : "Item 6",
+        "hazardousProperties" : "toxic",
+        "quantityLeft" : "87kg", 
+        "usedFor" : "something", 
+        "whereStored" : "Store 122"
+    },
+    {
+        "substanceId" : "Suk2021001007",
+        "substanceName" : "Item 7",
+        "hazardousProperties" : "Oxidizing",
+        "quantityLeft" : "390kg", 
+        "usedFor" : "something", 
+        "whereStored" : "Store 122"
+    },
+    {
+        "substanceId" : "Suk2021001008",
+        "substanceName" : "Item 8",
+        "hazardousProperties" : "Oxidizing",
+        "quantityLeft" : "47kg", 
+        "usedFor" : "something", 
+        "whereStored" : "Store 122"
+    },
+    {
+        "substanceId" : "Suk2021001009",
+        "substanceName" : "Item 9",
+        "hazardousProperties" : "Oxidizing",
+        "quantityLeft" : "7kg", 
+        "usedFor" : "something", 
+        "whereStored" : "Store 122"
+    },
+    {
+        "substanceId" : "Suk2021001010",
+        "substanceName" : "Item 10",
+        "hazardousProperties" : "Oxidizing",
+        "quantityLeft" : "97kg", 
+        "usedFor" : "something", 
+        "whereStored" : "Store 122"
+    }
+]

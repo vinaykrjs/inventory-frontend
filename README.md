@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Products: 
+details:
+table are 
+
+substanceId, substanceName, Hazardous Properties(Note 1), qunatity left(Approximate), UsedFor/By, WhereStored, Update(btn), delete(btn)
+
+
+Note 1: Due to their properties chemical hazardous substances may be, but are not limited to being toxic, explosive, flammable, self-reactive, oxidizing, or corrosive.
