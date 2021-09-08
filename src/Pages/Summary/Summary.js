@@ -8,6 +8,11 @@ import "./Summary.css";
 import totalItems from "../../data/totalItems";
 
 const Summary = (props) => {
+  console.log(props);
+  const updateHandler = (item) => {
+    props.history.push(`/item/${item.substanceId}`);
+    console.log("i m in updateHandler:: ", item.substanceId);
+  };
   return (
     <>
       <Header />
@@ -29,7 +34,7 @@ const Summary = (props) => {
         <tbody>
           {totalItems.length > 0 &&
             totalItems.map((item, index) => (
-              <tr>
+              <tr key={index}>
                 <td>{index + 1} </td>
                 <td>{item.substanceId}</td>
                 <td>{item.substanceName}</td>
@@ -38,7 +43,12 @@ const Summary = (props) => {
                 <td>{item.usedFor}</td>
                 <td>{item.whereStored}</td>
                 <td>
-                  <Button variant="warning">Update</Button>
+                  <Button
+                    variant="warning"
+                    onClick={() => updateHandler(item)}
+                  >
+                    Update
+                  </Button>
                 </td>
                 <td>
                   <Button variant="danger">Delete</Button>

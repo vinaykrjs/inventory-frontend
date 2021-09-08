@@ -1,0 +1,69 @@
+{
+    "substanceId": "Suk2021001009",
+    "substanceName": "Item 9",
+    "hazardousProperties": "Oxidizing",
+    "quantityLeft": "7kg",
+    "usedFor": "something",
+    "batches": [
+      {
+        "batchNo": "VIN2021001009",
+        "storeId": "ST002",
+        "storeName": "Godown 1",
+        "storelocation": "Shamkinad",
+        "quantity": "16",
+        "quantityType": "KG",
+        "unitPrice": "10",
+        "buydate": "10/02/2021",
+        "expiryDate": "20/01/2023",
+        "suppliedCompany": "MERAG MEDIC CO"
+      },
+      {
+        "batchNo": "VIN2021001009",
+        "storeId": "ST002",
+        "storeName": "Godown 1",
+        "storelocation": "Shamkinad",
+        "quantity": "16",
+        "quantityType": "KG",
+        "unitPrice": "10",
+        "buydate": "10/02/2021",
+        "expiryDate": "20/01/2023",
+        "suppliedCompany": "MERAG MEDIC CO"
+      },
+      {
+        "batchNo": "VIN2021001009",
+        "storeId": "ST002",
+        "storeName": "Godown 1",
+        "storelocation": "Shamkinad",
+        "quantity": "16",
+        "quantityType": "KG",
+        "unitPrice": "10",
+        "buydate": "10/02/2021",
+        "expiryDate": "20/01/2023",
+        "suppliedCompany": "MERAG MEDIC CO"
+      },
+      {
+        "batchNo": "VIN2021001009",
+        "storeId": "ST002",
+        "storeName": "Godown 1",
+        "storelocation": "Shamkinad",
+        "quantity": "16",
+        "quantityType": "KG",
+        "unitPrice": "10",
+        "buydate": "10/02/2021",
+        "expiryDate": "20/01/2023",
+        "suppliedCompany": "MERAG MEDIC CO"
+      },
+      {
+        "batchNo": "VIN2021001009",
+        "storeId": "ST002",
+        "storeName": "Godown 1",
+        "storelocation": "Shamkinad",
+        "quantity": "16",
+        "quantityType": "KG",
+        "unitPrice": "10",
+        "buydate": "10/02/2021",
+        "expiryDate": "20/01/2023",
+        "suppliedCompany": "MERAG MEDIC CO"
+      }
+    ]
+  }

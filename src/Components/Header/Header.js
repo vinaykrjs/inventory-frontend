@@ -5,7 +5,7 @@ import './Header.css';
 const Header = (props) => {
 
     return <>
-            <div className="Header">WinPhyn Inventory System</div>
+            <div className="Header"><h1> WinPhyn Inventory System</h1></div>
         </>
 
 }
