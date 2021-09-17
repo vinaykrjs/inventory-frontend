@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Header from "../../Components/Header/Header";
-import Form from "react-bootstrap/Form";
-import { Container, Row, Button, Table } from "react-bootstrap";
+import { Container, Row, Button, Table, Form  } from "react-bootstrap";
 import singleItem from "../../data/singleItem";
 const ItemDetailed = (props) => {
   let [tamplateItem, setTamplateItem] = useState(singleItem);

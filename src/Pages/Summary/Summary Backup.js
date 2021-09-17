@@ -9,7 +9,11 @@ import totalItems from "../../data/totalItems";
 
 const Summary = (props) => {
   console.log(props);
-  
+  const updateHandler = (item) => {
+    props.history.push(`/item/${item.substanceId}`);
+    console.log("i m in updateHandler:: ", item.substanceId);
+  };
+
   const addMaterialHandler = () => {
     props.history.push(`/create-item`);
     console.log("i m in addMaterialHandler:: ");
@@ -25,12 +29,14 @@ const Summary = (props) => {
         <thead>
           <tr>
             <th>#</th>
-            <th>Material Id</th>
-            <th>Material Name</th>
-            <th>Quantity in Stock (KG) </th>
-            <th>Unit Price</th>
-            <th>Inventory Value</th>
-            <th>Added on</th>
+            <th>Substance Id</th>
+            <th>Substance Name</th>
+            <th>Hazardous Properties</th>
+            <th>Quantity left(Approximate) </th>
+            <th>UsedFor/By </th>
+            <th>Where Stored </th>
+            <th>Update </th>
+            <th>Delete </th>
           </tr>
         </thead>
         <tbody>
@@ -38,13 +44,20 @@ const Summary = (props) => {
             totalItems.map((item, index) => (
               <tr key={index}>
                 <td>{index + 1} </td>
-                <td>{item.materialId}</td>
-                <td>{item.materialName}</td>
+                <td>{item.substanceId}</td>
+                <td>{item.substanceName}</td>
+                <td>{item.hazardousProperties}</td>
                 <td>{item.quantityLeft}</td>
-                <td>{item.unitPrice}</td>
-                <td>{(item.quantityLeft * item.unitPrice).toFixed(2)}</td>
-                
-                <td>{item.createdAt}</td>
+                <td>{item.usedFor}</td>
+                <td>{item.whereStored}</td>
+                <td>
+                  <Button variant="warning" onClick={() => updateHandler(item)}>
+                    Update
+                  </Button>
+                </td>
+                <td>
+                  <Button variant="danger">Delete</Button>
+                </td>
               </tr>
             ))}
           {/* <tr>
